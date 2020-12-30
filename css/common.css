@@ -100,7 +100,12 @@ body * {
     #port-howto h1 {
         font-size: 60px !important;
     }
+}
 
+@media (min-width: 576px) {
+    #port-howto img {
+        max-width: 450px !important;
+    }
 }
 
 .mouse-change {
@@ -274,8 +279,8 @@ a.navbar-item.on {
 
 #port-start .play-btn img {
     cursor: pointer;
-    width: 50%;
-    max-width: 500px;
+    width: 45%;
+    max-width: 300px;
 }
 
 #port-start .play-btn img:first-child {
